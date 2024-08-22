@@ -1,10 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
 body {
     height: 100vh;
     margin: 0;
     padding: 0;
 }
 
-/* faq page start  */
+/*1 faq page start  */
 .faq-div{
     padding: 30px 0px;
 }
@@ -64,3 +71,24 @@ body {
 }
 
 /* faq page end  */
+
+/* 2ed fad section  */
+.sec-faq{
+    background: #f5f8ff;
+}
+.container{
+    margin:  0 40px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .tab{
+    position: relative;
+    background: #fff;
+    padding: 0 20px 20px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.05);
+    border-radius: 5px;
+}
+
